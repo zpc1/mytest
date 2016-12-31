@@ -1,0 +1,59 @@
+*** Creating Trace Output File '.\Object\iCar.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\object\main.o"'
+### List of Objects: adding '".\object\igprs.o"'
+### List of Objects: adding '".\object\autoloop.o"'
+### List of Objects: adding '".\object\sysconf.o"'
+### List of Objects: adding '".\object\ble.o"'
+### List of Objects: adding '".\object\timelength.o"'
+### List of Objects: adding '".\object\bsp.o"'
+### List of Objects: adding '".\object\int.o"'
+### List of Objects: adding '".\object\usart.o"'
+### List of Objects: adding '".\object\can.o"'
+### List of Objects: adding '".\object\rtc.o"'
+### List of Objects: adding '".\object\adc.o"'
+### List of Objects: adding '".\object\sim900a.o"'
+### List of Objects: adding '".\object\um220.o"'
+### List of Objects: adding '".\object\nrf24l01.o"'
+### List of Objects: adding '".\object\diskio.o"'
+### List of Objects: adding '".\object\ff.o"'
+### List of Objects: adding '".\object\norflash.o"'
+### List of Objects: adding '".\object\iso14230.o"'
+### List of Objects: adding '".\object\iso15765.o"'
+### List of Objects: adding '".\object\iso9141.o"'
+### List of Objects: adding '".\object\search.o"'
+### List of Objects: adding '".\object\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\object\misc.o"'
+### List of Objects: adding '".\object\stm32f10x_can.o"'
+### List of Objects: adding '".\object\stm32f10x_exti.o"'
+### List of Objects: adding '".\object\stm32f10x_gpio.o"'
+### List of Objects: adding '".\object\stm32f10x_rcc.o"'
+### List of Objects: adding '".\object\stm32f10x_usart.o"'
+### List of Objects: adding '".\object\stm32f10x_tim.o"'
+### List of Objects: adding '".\object\stm32f10x_rtc.o"'
+### List of Objects: adding '".\object\stm32f10x_bkp.o"'
+### List of Objects: adding '".\object\stm32f10x_spi.o"'
+### List of Objects: adding '".\object\stm32f10x_pwr.o"'
+### List of Objects: adding '".\object\stm32f10x_flash.o"'
+### List of Objects: adding '".\object\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\object\stm32f10x_adc.o"'
+### List of Objects: adding '".\object\stm32f10x_dma.o"'
+### List of Objects: adding '".\object\core_cm3.o"'
+### List of Objects: adding '".\object\system_stm32f10x.o"'
+### List of Objects: adding '".\object\mpu6050.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\object\main.o" ".\object\igprs.o" ".\object\autoloop.o" ".\object\sysconf.o" ".\object\ble.o" ".\object\timelength.o" ".\object\bsp.o" ".\object\int.o" ".\object\usart.o" ".\object\can.o" ".\object\rtc.o" ".\object\adc.o" ".\object\sim900a.o" ".\object\um220.o" ".\object\nrf24l01.o" ".\object\diskio.o" ".\object\ff.o" ".\object\norflash.o" ".\object\iso14230.o" ".\object\iso15765.o" ".\object\iso9141.o" ".\object\search.o" ".\object\startup_stm32f10x_hd.o" ".\object\misc.o" ".\object\stm32f10x_can.o" ".\object\stm32f10x_exti.o" ".\object\stm32f10x_gpio.o" ".\object\stm32f10x_rcc.o" ".\object\stm32f10x_usart.o" ".\object\stm32f10x_tim.o" ".\object\stm32f10x_rtc.o" ".\object\stm32f10x_bkp.o" ".\object\stm32f10x_spi.o" ".\object\stm32f10x_pwr.o" ".\object\stm32f10x_flash.o" ".\object\stm32f10x_iwdg.o" ".\object\stm32f10x_adc.o" ".\object\stm32f10x_dma.o" ".\object\core_cm3.o" ".\object\system_stm32f10x.o" ".\object\mpu6050.o" --library_type=microlib --strict --scatter ".\Object\iCar.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\iCar.map" -o ".\Object\iCar.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Object\iCar.axf'
+### ADS-LD Command File: '.\Object\iCar.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Object\iCar.lnp', Handle=0x0000063C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Object\iCar.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
